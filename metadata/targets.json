@@ -2,16 +2,66 @@
  "signatures": [
   {
    "keyid": "c98e4b4a448749da3fc2c74cbec3d5f898a3e2ed866357a9a196f90957e2837b",
-   "sig": "bd1203054a112ce2e75482781d3092a9bc5071c5ecaf38f3ffcf6e850e1ac42bf4257d767a0d7ff49c07762bd9a82fab46deec5894933943da897795429cfd71de6feb440ece99eeb7151b0bd58b9754fadb095e9240255b2f901a41db39c2633ebc346f0f7234767b20f4e229758f9593e2f32e83c37988e9049e40ce5d18dac781a19ede7128fee39732d4dabbaa884ef2b9c4fb4b155fd083f6fbd57011ff53fc359d02c72e0a248aee9831f9bfd49c9d63cebe28bcfa253e7e2f728e97ad419692cc51763c1cd9ab9b0093a70b7893221b17d85b865205ab0e9e9b0555bff9af37a8f0d03b34e9d9b3b23a1e1aae27512af1cb7d17ae7cb34020ce12b28b"
+   "sig": "c5bf4b52a3c1a054d7e7757723d4e5ae0909a1b254139a62d9639ca861eb13be657718681f504f5a19055f97e878a10b67086a56e2fe8142018da5d0eb70cd46d2170e7106ad2c79e3ce84c33e47d373f75fb933d52887d14b1695a8387132098e218a2209bdf7c634e408118e8db336943a6cd07e3edd68d3b0f5d46fa1ed45b6d3ad94de0744a1b1761f3809a238698f4c4985a7d85808806684b425236f6b95f0d8f07712b0706723c0b95c533c0e8e644ab8887077d9e094d29762c770f4f7d0e34ad6a7cda018e4b47d78c97702cf4d6aadbbe89e971171c1872565e92e39eb04d17bf7b9ac14fab30e8c2eafa602f3e536afe3dfe7a7f1856ef4672045"
   }
  ],
  "signed": {
   "_type": "targets",
   "delegations": {
-   "keys": {},
-   "roles": []
+   "keys": {
+    "c98e4b4a448749da3fc2c74cbec3d5f898a3e2ed866357a9a196f90957e2837b": {
+     "keyid_hash_algorithms": [
+      "sha256",
+      "sha512"
+     ],
+     "keytype": "rsa",
+     "keyval": {
+      "public": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1heRzGMtHO9WtduHG+ur\ntYbkLoQzr3NkNAEGALqL/JGiIhsZGlzfWVB7r9zawmW7bs5B0vB9iETgPnPao9QD\n+SVVJIscMoQfKP7hcQuXOxpHG7aUaZrLNTqyvGezCkfKZeGCVtmKZynKsZe2QUaN\nzvx9gKdiibAGvR62Co2KjKmPidssL7qxc0vLbq3cZd+xjDhdK/3i74BtfzxqFayy\nQ1pDBEMDs++Edm17cbVD4OwRMF9nod6vNPgGHC0ljBiSohs/BIAxxGTOboUtAMv5\nSnzMxeQhuKQoAJsJoi9+ea+voG/Sd9WJxvtwH85qImCLPD1XL6kfhNIdfJjFol0U\n6QIDAQAB\n-----END PUBLIC KEY-----"
+     },
+     "scheme": "rsa-pkcs1v15-sha256"
+    }
+   },
+   "roles": [
+    {
+     "keyids": [
+      "c98e4b4a448749da3fc2c74cbec3d5f898a3e2ed866357a9a196f90957e2837b"
+     ],
+     "name": "law",
+     "paths": [
+      "cityofsanmateo/law-xml",
+      "cityofsanmateo/law-html",
+      "cityofsanmateo/law-xml-codified",
+      "capstone",
+      "branch"
+     ],
+     "terminating": false,
+     "threshold": 1
+    },
+    {
+     "keyids": [
+      "c98e4b4a448749da3fc2c74cbec3d5f898a3e2ed866357a9a196f90957e2837b"
+     ],
+     "name": "docs",
+     "paths": [
+      "cityofsanmateo/law-docs"
+     ],
+     "terminating": false,
+     "threshold": 1
+    },
+    {
+     "keyids": [
+      "c98e4b4a448749da3fc2c74cbec3d5f898a3e2ed866357a9a196f90957e2837b"
+     ],
+     "name": "assets",
+     "paths": [
+      "openlawlibrary/law-static-assets"
+     ],
+     "terminating": false,
+     "threshold": 1
+    }
+   ]
   },
-  "expires": "2021-02-09T10:52:16Z",
+  "expires": "2021-02-09T10:53:20Z",
   "spec_version": "1.0",
   "targets": {
    "mirrors.json": {
@@ -29,6 +79,6 @@
     "length": 1282
    }
   },
-  "version": 4
+  "version": 5
  }
 }
