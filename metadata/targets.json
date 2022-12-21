@@ -1,8 +1,8 @@
 {
  "signatures": [
   {
-   "keyid": "3ee0cbbdea49d1698ee17d6eb1f6c160315800026dfc29f810e0a216fa1b7e68",
-   "sig": "e418291b5a27f55401559992caed379837ac27c44d429f1a8c5d58e696ec21b3b4e327c0299a2571f5c486facddbf65c3868df2d574e9bb9d3bf26456ac74215dbcdbefa13976d9d25843e59527b573337be4551088c7b5cd1ab2c8b2a8d456fd3df441e5c3de89eccd7b8400b8ad243de5ac00e287fac5edfd9f9bed22d6ae5db02dafcb9a6f00574a05564e490b6354df394dc9ac1749ce00bc65b3c843ea167db03fb36c80690b097e6d8a90dc0940ce62ac5d44ef810e84ad9d717348338fa5111148b95a787bb5456675aa5eb8f87cec22b1e54bf1b725d52d428b45a3d98c69079d53b2c23f72989d65bd76e76dbf4c2702ba708f7e9993411e9e99fd0"
+   "keyid": "ac309ec75e9e4c353d7541e0816fbbc33acc16b73167b4951873db97a239a111",
+   "sig": "441dfc840b039059d3fd49a83cb3a38c30dc37da14741483dd8e2738c912e02add7d385ef1b82d67656730c9a1a6624c26c2c72f288f8038ecb1eba61a5b19bdcc7783c0559260479ad52c53ce24cd912aa26c48ccce198443b5e16b69831694c47f96b639c70175b6fed40b017206676fcadd06c8c742b651cd3b507e4977dc17b9dcf2eac348f00445e2ccc852a2cd816316b61da7a67abc09b078c8db32ad95552cd8d3f699d9c28179dfc2a0524434519cf0bd68656c8be93a4ecebb818f7c5755662a184ef2df562bfdb41dade0994866932596a91dc59d1c7aeb60904e3e658a05b794f1f98cb43e19abff51af937e4b379da7239845cff96d8b23b11b"
   }
  ],
  "signed": {
@@ -82,15 +82,15 @@
      ],
      "name": "assets",
      "paths": [
-      "openlawlibrary/law-static-assets"
+      "cityofsanmateo/law-static-assets"
      ],
      "terminating": false,
      "threshold": 1
     }
    ]
   },
-  "expires": "2022-10-18T19:36:16Z",
-  "spec_version": "1.0",
+  "expires": "2023-03-21T08:23:13Z",
+  "spec_version": "1.0.0",
   "targets": {
    "mirrors.json": {
     "hashes": {
@@ -101,12 +101,12 @@
    },
    "repositories.json": {
     "hashes": {
-     "sha256": "daa45bc2c1da81cc57b6ca2d0e8e4e947ab1690277891064d3f390be30b38627",
-     "sha512": "db5cc64ee0f6ae3b7826651d85145cfa0a39f99441324a6828b9234bf8e47c2c0f3eb00d395477940bea511958c2017dec7f3ba1aa58dba52c7d53052c04ef90"
+     "sha256": "3a3736bcafa45983c80fadb73df61572966828970e495c82db85e6fb7452666f",
+     "sha512": "0f9327c147eba7f966b0553b5c04ba740054dd56a89b552784cfccfbb4d66250d361d2b2f03e901d65fc4c978fe036a2f8a6a37e43a819ad40527f2497e7e2da"
     },
     "length": 1274
    }
   },
-  "version": 11
+  "version": 12
  }
 }
