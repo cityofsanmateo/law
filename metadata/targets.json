@@ -2,7 +2,7 @@
  "signatures": [
   {
    "keyid": "3ee0cbbdea49d1698ee17d6eb1f6c160315800026dfc29f810e0a216fa1b7e68",
-   "sig": "b484e6fe3f5f1cd2f46d531d0ec2c54a5fd92e2ec9120a55a4c066ad66c2c8b0067b21169a9964c5a455eabd8a0a064b529b930eba1f33176157567489eb20a3143ff1acf2a0f3105a2b5e97f6720c32fd29478a4ab4d57016f262e804632106e6671fae61f4ce577ef0480cb214c63ba9bddd1dd89968bf480c0cfbaec6ac7f9e55da38e124cb33ca6ae4067785e2d88f5f770345c9f336df0694876557045c7c70b073a3f6a7f0175007d14a5299cc10ceddcd6ca732236fc09e3b5ecd5aba37579ca66fa2bc69bf7526d6e220e233360e549300d0a0b5f8f35c98ee5c42bc22f565c4978e8037fe59b7db6338518ec0b9925416be6ef9744f4f2f87e7d71c"
+   "sig": "c684569d10e71d427c80815aacbf18e5778d38d567b39871fbcab49debb5ace7598e4a9e86671d4cc68d20e814963744bdc615ce09570091dc6f8b01a9e3466a5f76852351659b194c140180c308b7dda8c14744eea2ff0729f172b14adf2c9cbd99927d9e9fd52bf572b9d9aba3e81c4b4eb18415c6c83fd78b54f5848b8c0b27231b72e50ee378b01edadda838f96ffc9703e4b18bf65126f2f98a9f56ba9a5ca6e8fd39f3af040c32aa2682a9c2bf35fbaa45ab31b7592fbbca072d2c63173a9142dd3a7da39655de106d42327bfd0156baa02327064113ea22f98c7a21f6988ee0047a565293ee3d141d6bd2d7963e2d1df749cd77062406b518d2ac3ea1"
   }
  ],
  "signed": {
@@ -86,10 +86,23 @@
      ],
      "terminating": false,
      "threshold": 1
+    },
+    {
+     "keyids": [
+      "3ee0cbbdea49d1698ee17d6eb1f6c160315800026dfc29f810e0a216fa1b7e68"
+     ],
+     "name": "rdf",
+     "paths": [
+      "cityofsanmateo/law-rdf",
+      "rdf/branch",
+      "rdf/capstone"
+     ],
+     "terminating": true,
+     "threshold": 1
     }
    ]
   },
-  "expires": "2024-12-11T19:20:43Z",
+  "expires": "2024-12-11T19:38:43Z",
   "spec_version": "1.0.0",
   "targets": {
    "mirrors.json": {
@@ -114,6 +127,6 @@
     "length": 1377
    }
   },
-  "version": 15
+  "version": 16
  }
 }
